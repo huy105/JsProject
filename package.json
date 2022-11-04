@@ -1,0 +1,21 @@
+{
+  "name": "web_server_js",
+  "version": "0.0.1",
+  "description": "WebServer JS",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon scr/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Minh Tuấn",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
